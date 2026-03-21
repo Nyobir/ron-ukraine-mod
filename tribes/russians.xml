@@ -1,0 +1,35 @@
+<!-- edited with XMLSPY v5 rel. 2 U (http://www.xmlspy.com) by Brian Reynolds (Big Huge Games) -->
+<!-- LOCALIZATION: LEADER and CITY elements; also, name attribute -->
+<!-- Ukraine Nation Mod - replaces Russians -->
+<TRIBE name="Ukraine">
+  <LEADERS>
+    <LEADER>Bohdan Khmelnytsky</LEADER>
+    <LEADER>Ivan Mazepa</LEADER>
+    <LEADER>Taras Shevchenko</LEADER>
+  </LEADERS>
+  <CITIES>
+    <CITY>Kyiv</CITY>
+    <CITY>Lviv</CITY>
+    <CITY>Odesa</CITY>
+    <CITY>Kharkiv</CITY>
+    <CITY>Dnipro</CITY>
+    <CITY>Zaporizhzhia</CITY>
+    <CITY>Chernihiv</CITY>
+    <CITY>Poltava</CITY>
+    <CITY>Vinnytsia</CITY>
+    <CITY>Mykolaiv</CITY>
+    <CITY>Sumy</CITY>
+    <CITY>Ternopil</CITY>
+    <CITY>Lutsk</CITY>
+    <CITY>Uzhhorod</CITY>
+    <CITY>Ivano-Frankivsk</CITY>
+    <CITY>Kramatorsk</CITY>
+    <CITY>Mariupol</CITY>
+    <CITY>Kherson</CITY>
+    <CITY>Rivne</CITY>
+    <CITY>Zhytomyr</CITY>
+  </CITIES>
+  <UNIT_CONTINENT>0 European</UNIT_CONTINENT>
+  <BUILD_CONTINENT>1 NEuro</BUILD_CONTINENT>
+  <BACKUP_BUILD_CONTINENT>0 Med</BACKUP_BUILD_CONTINENT>
+</TRIBE>
