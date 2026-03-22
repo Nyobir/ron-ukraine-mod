@@ -30,15 +30,30 @@ if exist "%MOD_DIR%\backup\rules.xml" (
     copy "%GAME_DIR%\Data\unitrules.xml" "%MOD_DIR%\backup\unitrules.xml"
     copy "%GAME_DIR%\Data\help.xml" "%MOD_DIR%\backup\help.xml"
     copy "%GAME_DIR%\tribes\russians.xml" "%MOD_DIR%\backup\tribes\russians.xml"
+    mkdir "%MOD_DIR%\backup\art" 2>nul
+    copy "%GAME_DIR%\art\RedGuard.tga" "%MOD_DIR%\backup\art\RedGuard.tga"
+    copy "%GAME_DIR%\art\Rusiny.tga" "%MOD_DIR%\backup\art\Rusiny.tga"
+    copy "%GAME_DIR%\art\Cossack.tga" "%MOD_DIR%\backup\art\Cossack.tga"
+    copy "%GAME_DIR%\art\Don_cossack.tga" "%MOD_DIR%\backup\art\Don_cossack.tga"
+    copy "%GAME_DIR%\art\T80_green.tga" "%MOD_DIR%\backup\art\T80_green.tga"
+    copy "%GAME_DIR%\art\katyusha.tga" "%MOD_DIR%\backup\art\katyusha.tga"
     echo Backup complete.
     echo.
 )
 
 echo Installing Ukraine mod...
+echo  - Data files...
 copy /Y "%MOD_DIR%\data\rules.xml" "%GAME_DIR%\Data\rules.xml"
 copy /Y "%MOD_DIR%\data\unitrules.xml" "%GAME_DIR%\Data\unitrules.xml"
 copy /Y "%MOD_DIR%\data\help.xml" "%GAME_DIR%\Data\help.xml"
 copy /Y "%MOD_DIR%\tribes\russians.xml" "%GAME_DIR%\tribes\russians.xml"
+echo  - Unit textures...
+copy /Y "%MOD_DIR%\art\RedGuard.tga" "%GAME_DIR%\art\RedGuard.tga"
+copy /Y "%MOD_DIR%\art\Rusiny.tga" "%GAME_DIR%\art\Rusiny.tga"
+copy /Y "%MOD_DIR%\art\Cossack.tga" "%GAME_DIR%\art\Cossack.tga"
+copy /Y "%MOD_DIR%\art\Don_cossack.tga" "%GAME_DIR%\art\Don_cossack.tga"
+copy /Y "%MOD_DIR%\art\T80_green.tga" "%GAME_DIR%\art\T80_green.tga"
+copy /Y "%MOD_DIR%\art\katyusha.tga" "%GAME_DIR%\art\katyusha.tga"
 
 echo.
 echo === Installation complete! ===

@@ -140,7 +140,7 @@
       </STRING>
 		</ENTRY>
 		<ENTRY name="TRIBE13">
-			<STRING>{Ukraine has the Power of the Breadbasket.}
+			<STRING>{Ukraine has the Power of the Breadbasket.} Heirs to the Cossack tradition and the fertile steppe, Ukrainians excel at defending their homeland.
          <BULLET/>Attrition damage to enemy units in your territory increased by $NUMBER0%. Attrition upgrades are free.
          <BULLET/>$NATIONALBORDERS0 Start with 1 free Civic research at the Library.
          <BULLET/>Spies are $NUMBER2% cheaper.
@@ -5753,7 +5753,7 @@ who can fire even while moving; effective against enemy Musket Infantry.
 
 
          
-            <!--Rusiny Lancers-->
+            <!--Sich Cossack-->
 			</STRING>
 		</ENTRY>
 		<ENTRY name="COSSACK">
@@ -5770,7 +5770,7 @@ who can fire even while moving; effective against enemy Musket Infantry.
 
 
          
-            <!--Cossacks-->
+            <!--Sich Warrior-->
 			</STRING>
 		</ENTRY>
 		<ENTRY name="DONCOSSACK">
@@ -5787,7 +5787,7 @@ who can fire even while moving; effective against enemy Musket Infantry.
 
 
          
-            <!--Don Cossacks-->
+            <!--Cossack Hetman-->
 			</STRING>
 		</ENTRY>
 		<ENTRY name="CATAPULT">
@@ -7826,7 +7826,7 @@ foot troops.
 
 
          
-            <!--T80 Tank-->
+            <!--Oplot Tank-->
 			</STRING>
 		</ENTRY>
 		<ENTRY name="INFANTRYGERMAN">
@@ -7856,7 +7856,7 @@ foot troops.
 
 
          
-            <!--Red Guards Infantry-->
+            <!--Drone Operator-->
 			</STRING>
 		</ENTRY>
 		<ENTRY name="SHOCKINFANTRY">
@@ -7871,7 +7871,7 @@ foot troops.
 
 
          
-            <!--Shock Infantry-->
+            <!--Shock Infantry (Ukrainian)-->
 			</STRING>
 		</ENTRY>
 		<ENTRY name="BASILICABOMBARD">
@@ -7910,7 +7910,7 @@ foot troops.
 
 
          
-            <!--Katyusha Rocket-->
+            <!--Vilkha Rocket-->
 			</STRING>
 		</ENTRY>
 		<ENTRY name="FLAMINGARROW">
