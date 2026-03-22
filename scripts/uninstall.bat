@@ -21,6 +21,7 @@ copy /Y "%MOD_DIR%\backup\rules.xml" "%GAME_DIR%\Data\rules.xml"
 copy /Y "%MOD_DIR%\backup\unitrules.xml" "%GAME_DIR%\Data\unitrules.xml"
 copy /Y "%MOD_DIR%\backup\help.xml" "%GAME_DIR%\Data\help.xml"
 copy /Y "%MOD_DIR%\backup\tribes\russians.xml" "%GAME_DIR%\tribes\russians.xml"
+copy /Y "%MOD_DIR%\backup\typenames.xml" "%GAME_DIR%\Data\typenames.xml"
 if exist "%MOD_DIR%\backup\art\RedGuard.tga" (
     echo  - Unit textures...
     copy /Y "%MOD_DIR%\backup\art\RedGuard.tga" "%GAME_DIR%\art\RedGuard.tga"

@@ -3410,7 +3410,7 @@
     <UPGRADE/>
     <PUSH_SIZE>1</PUSH_SIZE>
     <PUSH_CIRCLES>1</PUSH_CIRCLES>
-    <TYPENAME>Drone Operator</TYPENAME>
+    <TYPENAME>Red Guards Infantry</TYPENAME>
   </UNIT>
   <UNIT>
     <NAME>Shock Infantry</NAME>
@@ -10079,7 +10079,7 @@
     <UPGRADE/>
     <PUSH_SIZE>1</PUSH_SIZE>
     <PUSH_CIRCLES>1</PUSH_CIRCLES>
-    <TYPENAME>Sich Cossack</TYPENAME>
+    <TYPENAME>Rusiny Lancer</TYPENAME>
   </UNIT>
   <UNIT>
     <NAME>Cossack</NAME>
@@ -10136,7 +10136,7 @@
     <UPGRADE/>
     <PUSH_SIZE>1</PUSH_SIZE>
     <PUSH_CIRCLES>1</PUSH_CIRCLES>
-    <TYPENAME>Sich Warrior</TYPENAME>
+    <TYPENAME>Cossack</TYPENAME>
   </UNIT>
   <UNIT>
     <NAME>Don Cossack</NAME>
@@ -10193,7 +10193,7 @@
     <UPGRADE/>
     <PUSH_SIZE>1</PUSH_SIZE>
     <PUSH_CIRCLES>1</PUSH_CIRCLES>
-    <TYPENAME>Cossack Hetman</TYPENAME>
+    <TYPENAME>Don Cossack</TYPENAME>
   </UNIT>
   <UNIT>
     <NAME>Cataphract</NAME>
@@ -12131,7 +12131,7 @@
     <UPGRADE/>
     <PUSH_SIZE>2</PUSH_SIZE>
     <PUSH_CIRCLES>1</PUSH_CIRCLES>
-    <TYPENAME>Oplot Tank</TYPENAME>
+    <TYPENAME>T80 Tank</TYPENAME>
   </UNIT>
   <UNIT>
     <NAME>War Elephant</NAME>
@@ -13157,7 +13157,7 @@
     <UPGRADE/>
     <PUSH_SIZE>6</PUSH_SIZE>
     <PUSH_CIRCLES>2</PUSH_CIRCLES>
-    <TYPENAME>Vilkha Rocket</TYPENAME>
+    <TYPENAME>Katyusha Rocket</TYPENAME>
   </UNIT>
   <UNIT>
     <NAME>Flaming Arrow</NAME>
