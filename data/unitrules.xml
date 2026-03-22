@@ -3356,7 +3356,7 @@
     <TYPENAME>Assault Infantry</TYPENAME>
   </UNIT>
   <UNIT>
-    <NAME>Drone Operator</NAME>
+    <NAME>Red Guards Infantry</NAME>
     <GRAPH>REDGUARD</GRAPH>
     <OBJ_MASK>IFG</OBJ_MASK>
     <FLAGS>lmjiy</FLAGS>
@@ -3426,7 +3426,7 @@
     <JOB_TIME>169</JOB_TIME>
     <PREQ0>Information Age</PREQ0>
     <PREQ1>none</PREQ1>
-    <FROM>Drone Operator</FROM>
+    <FROM>Red Guards Infantry</FROM>
     <JUMP>disable</JUMP>
     <GRAFT>Assault Infantry</GRAFT>
     <RANGE>0-14rng</RANGE>
@@ -10025,7 +10025,7 @@
     <TYPENAME>BMP</TYPENAME>
   </UNIT>
   <UNIT>
-    <NAME>Sich Cossack</NAME>
+    <NAME>Rusiny Lancer</NAME>
     <GRAPH>RUSINYLANCER</GRAPH>
     <OBJ_MASK>4MW</OBJ_MASK>
     <FLAGS>may</FLAGS>
@@ -10039,7 +10039,7 @@
     <PREQ0>Medieval Age</PREQ0>
     <PREQ1>none</PREQ1>
     <FROM>Light Horse</FROM>
-    <JUMP>Sich Warrior</JUMP>
+    <JUMP>Cossack</JUMP>
     <GRAFT>Light Cavalry</GRAFT>
     <RANGE>0-0rng</RANGE>
     <LOS>7</LOS>
@@ -10082,7 +10082,7 @@
     <TYPENAME>Sich Cossack</TYPENAME>
   </UNIT>
   <UNIT>
-    <NAME>Sich Warrior</NAME>
+    <NAME>Cossack</NAME>
     <GRAPH>COSSACK</GRAPH>
     <OBJ_MASK>4MW</OBJ_MASK>
     <FLAGS>majy</FLAGS>
@@ -10095,8 +10095,8 @@
     <JOB_TIME>155</JOB_TIME>
     <PREQ0>Gunpowder Age</PREQ0>
     <PREQ1>none</PREQ1>
-    <FROM>Sich Cossack</FROM>
-    <JUMP>Cossack Hetman</JUMP>
+    <FROM>Rusiny Lancer</FROM>
+    <JUMP>Don Cossack</JUMP>
     <GRAFT>Elite Light Cavalry</GRAFT>
     <RANGE>0-0rng</RANGE>
     <LOS>8</LOS>
@@ -10139,7 +10139,7 @@
     <TYPENAME>Sich Warrior</TYPENAME>
   </UNIT>
   <UNIT>
-    <NAME>Cossack Hetman</NAME>
+    <NAME>Don Cossack</NAME>
     <GRAPH>DONCOSSACK</GRAPH>
     <OBJ_MASK>4MW</OBJ_MASK>
     <FLAGS>majy</FLAGS>
@@ -10152,7 +10152,7 @@
     <JOB_TIME>155</JOB_TIME>
     <PREQ0>Enlightenment Age</PREQ0>
     <PREQ1>none</PREQ1>
-    <FROM>Sich Warrior</FROM>
+    <FROM>Cossack</FROM>
     <JUMP>Armored Car</JUMP>
     <GRAFT>Hussar</GRAFT>
     <RANGE>0-0rng</RANGE>
@@ -12077,7 +12077,7 @@
     <TYPENAME>Leopard Tank</TYPENAME>
   </UNIT>
   <UNIT>
-    <NAME>Oplot Tank</NAME>
+    <NAME>T80 Tank</NAME>
     <GRAPH>RUSSHEAVYTANK</GRAPH>
     <OBJ_MASK>VTAU</OBJ_MASK>
     <FLAGS>jxty</FLAGS>
@@ -13103,7 +13103,7 @@
     <TYPENAME>Basilica Cannon</TYPENAME>
   </UNIT>
   <UNIT>
-    <NAME>Vilkha Rocket</NAME>
+    <NAME>Katyusha Rocket</NAME>
     <GRAPH>KATYUSHA</GRAPH>
     <OBJ_MASK>SXVTL</OBJ_MASK>
     <FLAGS>jyr</FLAGS>
